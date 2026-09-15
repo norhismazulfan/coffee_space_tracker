@@ -1,6 +1,6 @@
 # Coffee Space Tracker
 
-Aplikasi web sederhana untuk pencatatan dan dokumentasi kedai kopi (*coffee shop*) favorit, dilengkapi dengan galeri foto, rating, lokasi Google Maps, dan catatan menu. Dibuat menggunakan **PHP Native** dan **JavaScript (Fetch API)**.
+Aplikasi web sederhana untuk pencatatan dan dokumentasi kedai kopi (*coffee shop*) favorit, dilengkapi dengan galeri foto, rating, lokasi Google Maps, dan catatan menu. Dibuat menggunakan **PHP** dan **JavaScript (Fetch API)**.
 
 ## 📸 Tampilan Aplikasi
 <img width="100%" alt="Preview Coffee Space" src="link_screenshot_kamu.png" />
