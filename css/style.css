@@ -1,0 +1,91 @@
+/* ==========================================
+   Coffee Space Tracker - Custom Styling
+   ========================================== */
+
+   :root {
+    --bg-main: #FDFBF7;
+    --brown-primary: #6F4E37;
+    --brown-dark: #3C2A21;
+    --brown-light: #D5CEA3;
+    --text-color: #2B2B2B;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Color Helpers */
+.bg-coffee {
+    background-color: var(--brown-dark) !important;
+}
+
+.text-brown {
+    color: var(--brown-dark);
+}
+
+.fs-7 {
+    font-size: 0.875rem;
+}
+
+.fs-8 {
+    font-size: 0.75rem;
+}
+
+/* Button Styling */
+.btn-coffee {
+    background-color: var(--brown-primary);
+    color: #ffffff;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-coffee:hover {
+    background-color: var(--brown-dark);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+/* Form Card */
+.card-form {
+    background-color: #ffffff;
+}
+
+/* Sticky Search Container */
+.search-sticky-container {
+    position: sticky;
+    top: 15px;
+    z-index: 100;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(8px);
+}
+
+/* Card Cafe Styling */
+.card-cafe {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #ffffff;
+}
+
+.card-cafe:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+}
+
+/* Clickable Thumbnail Image */
+.clickable-img {
+    transition: opacity 0.2s ease;
+}
+
+.clickable-img:hover {
+    opacity: 0.88;
+}
+
+/* Responsive Utilities */
+@media (max-width: 576px) {
+    .search-sticky-container {
+        top: 10px;
+        padding: 10px !important;
+    }
+}
