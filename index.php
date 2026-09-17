@@ -39,7 +39,7 @@
                         <i class="fa-solid fa-pen-to-square me-2"></i>Tambah / Edit Kafe
                     </h5>
 
-                    <form id="cafeForm" enctype="multipart/form-data">
+                    <form id="cafeForm" enctype="multipart/form-data" novalidate">
                         <!-- ID Hidden untuk Mode Edit -->
                         <input type="hidden" id="cafeId" name="id">
 
