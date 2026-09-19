@@ -4,7 +4,6 @@ Aplikasi web sederhana untuk pencatatan dan dokumentasi kedai kopi (*coffee shop
 
 ## 📸 Tampilan Aplikasi
 <img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/cb3973dc-3708-4e9f-b1de-77574e97be9c" />
-<img width="327" height="670" alt="Image" src="https://github.com/user-attachments/assets/b4b7a2d1-af7e-49cc-9f88-ee6d6d9e5fbe" />
 
 ## 🛠️ Teknologi yang Digunakan
 
